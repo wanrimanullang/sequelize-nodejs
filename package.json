@@ -13,16 +13,17 @@
   "scripts": {
     "make-model": "npx sequelize-cli model:generate --name user --attributes email:string",
     "migrate": "npx sequelize-cli db:migrate",
+    "undo-migrate":"npx sequelize-cli db:migrate:undo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wanrimanullang/CRUD.git"
+    "url": "git+https://github.com/wanrimanullang/sequelize-nodejs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wanrimanullang/CRUD/issues"
+    "url": "https://github.com/wanrimanullang/sequelize-nodejs.git"
   },
-  "homepage": "https://github.com/wanrimanullang/CRUD#readme"
+  "homepage": "https://github.com/wanrimanullang/sequelize-nodejs.git#readme"
 }

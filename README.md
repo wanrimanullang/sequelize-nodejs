@@ -60,7 +60,13 @@
 <h3>lalu lihat kolom database (refresh) kalian.BOOM!!<h3>
 <img src="img/database-1.PNG" ><br>
 <img src="img/database-2.PNG"><br>
+<p>oke kita udah bisa memasukkan tabel-tabel yang kita inginkan, sekarang kita membuat studi kasus jika pada saat kita mengalami masalah dalam penginputan ehh ternyata untuk table nya ada yang kurang atau untuk type data nya ada yang salah. kita bisa melakukan undo sebagai berikut.</p>
 
+<h3>undo migrate<h3><br>
+<p>memasukkan script untuk ke dalam package.json : "undo-migrate":"npx sequelize-cli db:migrate:undo", => jadi saat kita ingin undo hanya tekan "<b>npm undo -migrate</b>"</p><br>
+<img src="img/undo-migrate_1.PNG"> <p>berikut adalah penyimpanan script untuk undo</p>
+<img src="img/undo-migrate_2.PNG"><p>berikut adalah pada saat menjalankan comment untuk undo</p>
+<img src="img/undo-migrate_3.PNG"><p>BOOM! database pun tidak ada kolom lagi</p>
 
 
 
