@@ -1,5 +1,5 @@
 # sequelize-nodejs
-# by : https://youtu.be/Eu-h3iUk45o
+
 <h1> tutorial install sequelize </h1>
 <h3>install --save-dev sequelize-cli</h3><br>
 <p>syntax ini untuk membuat package-lock.json dan package.jso dan menginstall library yang berkaitan dengan sequelize. </p>
@@ -61,6 +61,7 @@
 <img src="img/database-1.PNG" ><br>
 <img src="img/database-2.PNG"><br>
 
+    # thank you for productioncoder channel: https://youtu.be/Eu-h3iUk45o
 
 
 
