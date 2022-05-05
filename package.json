@@ -12,17 +12,21 @@
   "main": "index.js",
   "scripts": {
     "make-model": "npx sequelize-cli model:generate --name user --attributes email:string",
+    "make-seed":"npx sequelize-cli seed:generate --name demo-user",
+    "seed": "npx sequelize-cli db:seed:all",
     "migrate": "npx sequelize-cli db:migrate",
+    "undo-migrate":"npx sequelize-cli db:migrate:undo",
+    "problem-seed": "sequelize db:seed:all --debug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wanrimanullang/CRUD.git"
+    "url": "git+https://github.com/wanrimanullang/sequelize-nodejs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wanrimanullang/CRUD/issues"
+    "url": "https://github.com/wanrimanullang/sequelize-nodejs.git"
   },
-  "homepage": "https://github.com/wanrimanullang/CRUD#readme"
+  "homepage": "https://github.com/wanrimanullang/sequelize-nodejs.git#readme"
 }
